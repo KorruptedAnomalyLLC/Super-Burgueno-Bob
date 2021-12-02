@@ -11,6 +11,7 @@ public class AnimatorFunctions : MonoBehaviour
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private ParticleSystem particleSystem;
     [SerializeField] private Animator setBoolInAnimator;
+    [SerializeField] public string whichLevel;
 
     // If we don't specify what audio source to play sounds through, just use the one on player.
     void Start()

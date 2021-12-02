@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuHandler : MonoBehaviour {
 
-	[SerializeField] private string whichScene;
+	[SerializeField] public string whichScene;
 
     public void QuitGame()
     {
